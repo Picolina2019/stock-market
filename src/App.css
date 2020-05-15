@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+};
+body{
+  width:100%;
+  height:100%;
+  margin:auto;
+  
+}
+.App {
+  display:grid;
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+  max-width:90%;
+
+  
+ }
+ .App h1{
+   color:rgb(80, 78, 78);
+   margin-bottom: 2rem;
+ }
+ .App select{
+   padding:1rem;
+   color:blue;
+   font-size: 14px;
+   border:1px solid orange;
+   border-radius: none;
+   margin-top: 1rem;
+   padding:1rem;
+   outline:none;
+   cursor: pointer;
+ }
+ .App button{
+   margin:1rem;
+   font-size: 14px;
+   color:orange;
+   border:none;
+   background-color: rgb(222, 222, 226);
+   width:4rem;
+   height:1.5rem;
+   outline:none;
+   cursor: pointer;
+ }
+ @media (min-width:320px) and (max-width:480px){
+   .App{
+     max-width:70px;
+   }
+ }
+ @media (min-width:481px) and (max-width:767px){
+  .App{
+    max-width:70px;
+  }
+}
